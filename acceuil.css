@@ -1,0 +1,235 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333; 
+}
+  
+  /* En-tête */
+  header {
+    background: linear-gradient(135deg, black, white);
+    color: #fff;
+    padding: 20px 0; 
+    
+  }
+  
+    .logo {
+        width: 80px;  /* Largeur réduite de l'image */
+        height: auto;  /* Hauteur automatique pour garder les proportions */
+        border-radius: 50%; 
+        margin: 0; /* Coins arrondis pour le style */
+        margin-bottom: 10px;
+      }
+  .menu{text-align: center;
+display: flex;
+padding-right: 200px; justify-content: space-between;
+align-items: center;
+
+flex-wrap: wrap;
+}
+  
+ 
+  
+  .container {
+    height: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* Section Hero */
+  .hero {
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    /*background: url('https://via.placeholder.com/1900x870') no-repeat center center/cover;*/
+  }
+  
+  .cta-button {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    color: #fff;
+    /*padding: 10px 20px;*/
+    margin-bottom: 0;
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 16px;
+   
+  }
+  
+ 
+  
+  /* Section des produits */
+  .produits {
+    padding: 40px 0;
+    text-align: center; 
+  }
+  
+  .produits h1{
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .produit-liste {
+    
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .produit {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 230px;
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+  
+  .produit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .produit img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s; 
+  }
+  
+  .produit:hover img {
+    transform: scale(1.05);
+  }
+  .produit h3 {
+    margin: 15px 0 5px;
+    font-size: 20px;
+    color: #333; 
+  }
+  
+  .produit a h3{
+    color: #100a0a;
+      
+      
+      text-decoration: none;
+      transition: background-color 0.3s;}
+  
+  
+  
+  .produit p {
+    font-size: 18px;
+    color: #00796b;
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: #f0f8ff;
+  }
+  .article{
+    border: 4px;
+         width: 500px;
+         margin: 20px;
+             padding: 20px;
+             background-color: rgb(229, 244, 210);
+             box-shadow: 5px 10px 15px rgba(21, 7, 17, 0.763);
+             border-radius:20px;
+             color: rgb(47, 49, 86);
+             box-sizing: border-box;font-family: tahoma;
+       }
+       .hbt{
+        padding-top: 80px;
+       }
+
+       /*foter*/
+       footer {
+        background-color: #f0f8ff;
+    }
+    
+   
+    .footer-bottom {
+        background-color: #324597;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .footer-bottom h4 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    
+    .about {
+        width: 30%;
+    }
+    
+    .links {
+        width: 20%;
+    }
+    
+    .links ul {
+        list-style: none;
+        padding: 0;
+    }
+    .links ul a{
+      color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        transition: background-color 0.3s;}
+    .tout{font-family: Arial, sans-serif;
+      
+      color: #333;}
+    
+    .links ul li {
+        margin-bottom: 5px;
+    }

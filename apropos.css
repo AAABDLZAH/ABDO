@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+    
+    /* En-tête */
+    header {
+      background: linear-gradient(135deg, black, white);
+      color: #fff;
+      padding: 20px 0;
+  
+    }
+    
+      .logo {
+          width: 80px;  /* Largeur réduite de l'image */
+          height: auto;  /* Hauteur automatique pour garder les proportions */
+          border-radius: 50%; 
+          margin: 0; /* Coins arrondis pour le style */
+          margin-bottom: 10px;
+        }
+    .menu{text-align: center;
+  display: flex;
+  padding-right: 200px;
+    }
+   
+    
+    .container {
+      height: 40px;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 15px;
+      
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a option {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+      
+      nav ul li a option:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+      }
+      
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+      
+      nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+      }
+      .cta-button {
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        color: #fff;
+        /*padding: 10px 20px;*/
+        margin-bottom: 0;
+        margin-top: 0;
+        text-decoration: none;
+        font-size: 16px;}
+      
+        
+        .meme-container {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+           
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                margin: 0;
+                background-color: #f5f5f5;
+                font-family: Arial, sans-serif;
+                text-align: center ;
+        }
+        
+        
+        .meme-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color:black;
+        }
+        footer {
+            background-color: #f0f8ff;
+        }
+        
+       
+        .footer-bottom {
+            background-color: #324597;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-bottom h4 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        
+        .about {
+            width: 30%;
+        }
+        
+        .links {
+            width: 20%;
+        }
+        
+        .links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .links ul a{
+            color: #fff;
+              text-decoration: none;
+              padding: 10px 15px;
+              font-size: 16px;
+              transition: background-color 0.3s;}
+        .tout{font-family: Arial, sans-serif;
+          
+          color: #333;}
+        
+        .links ul li {
+            margin-bottom: 5px;
+        }
